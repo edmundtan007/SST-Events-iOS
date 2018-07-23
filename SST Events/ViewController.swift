@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SST Events
 //
-//  Created by Edmund Tan on 25/6/18.
+//  Created by Edmund Tan and Troy on 25/6/18.
 //  Copyright © 2018 Edmund Tan. All rights reserved.
 //
 

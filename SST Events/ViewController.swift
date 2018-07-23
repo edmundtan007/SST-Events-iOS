@@ -10,8 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var signUpBtn: UIButton!
+    @IBOutlet weak var logInBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        signUpBtn.layer.borderWidth = 2
+        signUpBtn.layer.borderColor = UIColor.blue.cgColor
+        signUpBtn.layer.cornerRadius = 20
+        logInBtn.layer.borderWidth = 2
+        logInBtn.layer.borderColor = UIColor.blue.cgColor
+        logInBtn.layer.cornerRadius = 20
         // Do any additional setup after loading the view, typically from a nib.
     }
 

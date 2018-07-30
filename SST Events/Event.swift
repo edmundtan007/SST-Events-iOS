@@ -11,7 +11,7 @@ import Foundation
 struct Event {
     var Title: String
     var Date: String
-    var Time: Int
+    var Time: String
     var Venue: String
     var Description: String
 }

@@ -10,7 +10,7 @@ import UIKit
 
 class EventsTableViewController: UITableViewController {
     
-    var events = [Event(Title: "Frisbee", Date: "16 July 2018", Time: 1700, Venue: "SST Field", Description: "Let's play Frisbee!")
+    var events = [Event(Title: "Frisbee", Date: "16 July 2018", Time: "1700", Venue: "SST Field", Description: "Let's play Frisbee!")
     ]
     
     @IBAction func edit(_ sender: Any) {
@@ -65,6 +65,7 @@ class EventsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath) as! TableViewCell
+        let event = events[indexPath.row]
 
     
         cell.Title.text = events[indexPath.row].Title;

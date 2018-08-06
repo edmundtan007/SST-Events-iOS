@@ -9,7 +9,7 @@
 import UIKit
 
 class EditTableViewController: UITableViewController {
-    var event: Event!
+    var events: Event!
     
     @IBOutlet weak var textField: UITextField!
     
@@ -22,16 +22,16 @@ class EditTableViewController: UITableViewController {
     @IBOutlet weak var descriptionField: UITextView!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dest = segue.destination as! ViewController;
-        if segue.identifier == "saveUnwind" {
-            let Title = textField.text ?? ""
-            let Date = dateField.text ?? ""
-            let Time = timeField.text ?? ""
-            let Venue = venueField.text ?? ""
-            let Description = descriptionField.text ?? ""
-            event = Event(Title: Title, Date: Date, Time: Time, Venue: Venue, Description: Description)
+        let dest = segue.destination as! EventsTableViewController;
+        if(segue.identifier == "saveUnwind") {
+            var Title = textField.text ?? ""
+            var Date = dateField.text ?? ""
+            var Time = timeField.text ?? ""
+            var Venue = venueField.text ?? ""
+            var Description = descriptionField.text ?? ""
+            //events = Event(Title: Title, Date: Date, Time: Time, Venue: Venue, Description: Description)
             
-            //dest.event = Event(Title = textField.text ?? "", Date = dateField.text ?? "", Time = timeField.text ?? "", Venue = venueField.text ?? "", Description = descriptionField.text ?? "");
+            dest.events = [Event(Title: textField.text ?? "", Date: dateField.text ?? "", Time: timeField.text ?? "", Venue: venueField.text ?? "", Description: descriptionField.text ?? "")];
         }
     }
     

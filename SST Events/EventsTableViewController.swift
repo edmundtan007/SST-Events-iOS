@@ -28,7 +28,7 @@ class EventsTableViewController: UITableViewController {
         
         if segue.identifier == "saveUnwind"{
             let source = segue.source as! EditTableViewController
-            events.append(source.event)
+            events.append(source.events)
         }
     }
     override func viewDidLoad() {

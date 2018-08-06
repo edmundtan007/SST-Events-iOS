@@ -1,0 +1,6 @@
+framework module Pods_SST_Events {
+  umbrella header "Pods-SST Events-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -148,14 +148,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6q-FE-DRp">
-                                                    <rect key="frame" x="16" y="6" width="343" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6q-FE-DRp">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="T6q-FE-DRp" firstAttribute="top" secondItem="UMF-lH-Znj" secondAttribute="top" id="BoJ-3N-Gx1"/>
+                                                <constraint firstAttribute="trailing" secondItem="T6q-FE-DRp" secondAttribute="trailing" id="bcR-Yh-tZy"/>
+                                                <constraint firstItem="T6q-FE-DRp" firstAttribute="leading" secondItem="UMF-lH-Znj" secondAttribute="leading" id="ceI-mU-f9P"/>
+                                                <constraint firstAttribute="bottom" secondItem="T6q-FE-DRp" secondAttribute="bottom" id="dz8-5k-dqe"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -169,14 +174,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rBf-Xc-3o1">
-                                                    <rect key="frame" x="16" y="6" width="343" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rBf-Xc-3o1">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rBf-Xc-3o1" firstAttribute="top" secondItem="OQc-2R-7p2" secondAttribute="top" id="ADU-TU-lUP"/>
+                                                <constraint firstItem="rBf-Xc-3o1" firstAttribute="leading" secondItem="OQc-2R-7p2" secondAttribute="leading" id="Uew-iK-hga"/>
+                                                <constraint firstAttribute="bottom" secondItem="rBf-Xc-3o1" secondAttribute="bottom" id="bRX-XC-6RV"/>
+                                                <constraint firstAttribute="trailing" secondItem="rBf-Xc-3o1" secondAttribute="trailing" id="s2Q-xF-KpD"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>

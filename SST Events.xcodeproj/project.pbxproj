@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4046D70D253303A54B9D4B0F /* Pods_SST_EventsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008B6454C7F1712384FD20B /* Pods_SST_EventsTests.framework */; };
 		800ABFBE031BD5E063B0DA53 /* Pods_SST_EventsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8E191B578A1DB0FFFB83F4 /* Pods_SST_EventsUITests.framework */; };
+		880FF1202133EAC2007F00CE /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880FF11F2133EAC2007F00CE /* JoinViewController.swift */; };
 		881D588F20E0CFE700E2C8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D588E20E0CFE700E2C8F9 /* AppDelegate.swift */; };
 		881D589120E0CFE700E2C8F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D589020E0CFE700E2C8F9 /* ViewController.swift */; };
 		881D589420E0CFE700E2C8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881D589220E0CFE700E2C8F9 /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		881D58A720E0CFE900E2C8F9 /* SST_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D58A620E0CFE900E2C8F9 /* SST_EventsTests.swift */; };
 		881D58B220E0CFE900E2C8F9 /* SST_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D58B120E0CFE900E2C8F9 /* SST_EventsUITests.swift */; };
 		881D58C020E0DF1F00E2C8F9 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D58BF20E0DF1F00E2C8F9 /* EventsTableViewController.swift */; };
-		881D58C220E0DFE000E2C8F9 /* JoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D58C120E0DFE000E2C8F9 /* JoinTableViewController.swift */; };
 		881D58C420E0E3C700E2C8F9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D58C320E0E3C700E2C8F9 /* Event.swift */; };
 		884C1B4C210EFC0300C3B06A /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884C1B4B210EFC0300C3B06A /* EditTableViewController.swift */; };
 		88C45D4B20FC93CF0004B09C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C45D4A20FC93CF0004B09C /* TableViewCell.swift */; };
@@ -46,6 +46,7 @@
 		151E11018C7E6E104477A33E /* Pods-SST EventsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SST EventsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SST EventsUITests/Pods-SST EventsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6008B6454C7F1712384FD20B /* Pods_SST_EventsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SST_EventsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBAE168A5A69FEED96AFF77 /* Pods-SST EventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SST EventsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SST EventsTests/Pods-SST EventsTests.release.xcconfig"; sourceTree = "<group>"; };
+		880FF11F2133EAC2007F00CE /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		881D588B20E0CFE700E2C8F9 /* SST Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SST Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		881D588E20E0CFE700E2C8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		881D589020E0CFE700E2C8F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		881D58B120E0CFE900E2C8F9 /* SST_EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SST_EventsUITests.swift; sourceTree = "<group>"; };
 		881D58B320E0CFE900E2C8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881D58BF20E0DF1F00E2C8F9 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
-		881D58C120E0DFE000E2C8F9 /* JoinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinTableViewController.swift; sourceTree = "<group>"; };
 		881D58C320E0E3C700E2C8F9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		884C1B4B210EFC0300C3B06A /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 		88C45D4A20FC93CF0004B09C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -141,8 +141,8 @@
 				881D589220E0CFE700E2C8F9 /* Main.storyboard */,
 				88C45D4A20FC93CF0004B09C /* TableViewCell.swift */,
 				884C1B4B210EFC0300C3B06A /* EditTableViewController.swift */,
-				881D58C120E0DFE000E2C8F9 /* JoinTableViewController.swift */,
 				881D58BF20E0DF1F00E2C8F9 /* EventsTableViewController.swift */,
+				880FF11F2133EAC2007F00CE /* JoinViewController.swift */,
 				881D589820E0CFE900E2C8F9 /* Assets.xcassets */,
 				881D589A20E0CFE900E2C8F9 /* LaunchScreen.storyboard */,
 				881D589D20E0CFE900E2C8F9 /* Info.plist */,
@@ -422,9 +422,9 @@
 			files = (
 				881D589120E0CFE700E2C8F9 /* ViewController.swift in Sources */,
 				88C45D4B20FC93CF0004B09C /* TableViewCell.swift in Sources */,
+				880FF1202133EAC2007F00CE /* JoinViewController.swift in Sources */,
 				881D588F20E0CFE700E2C8F9 /* AppDelegate.swift in Sources */,
 				881D58C020E0DF1F00E2C8F9 /* EventsTableViewController.swift in Sources */,
-				881D58C220E0DFE000E2C8F9 /* JoinTableViewController.swift in Sources */,
 				884C1B4C210EFC0300C3B06A /* EditTableViewController.swift in Sources */,
 				881D58C420E0E3C700E2C8F9 /* Event.swift in Sources */,
 				881D589720E0CFE700E2C8F9 /* SST_Events.xcdatamodeld in Sources */,

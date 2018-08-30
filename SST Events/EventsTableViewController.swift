@@ -29,6 +29,7 @@ class EventsTableViewController: UITableViewController {
         if segue.identifier == "saveUnwind"{
             let source = segue.source as! EditTableViewController
             events.append(source.events)
+            tableView.reloadData();
         }
     }
     override func viewDidLoad() {
@@ -87,17 +88,18 @@ class EventsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
+            events.remove(at: indexPath.row)
             // Delete the row from the data source
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.
@@ -114,14 +116,25 @@ class EventsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-    }
-    */
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "showDetails"{
+                let dest = segue.destination as! JoinViewController
+                
+                if let indexPath = tableView.indexPathForSelectedRow{
+                    let selectedEvent = events[indexPath.row]
+                    
+                    
+                }
+            }
+        }
+    
+    
 
 }
